@@ -96,4 +96,4 @@ def get_imdb_id(imdbid):
         return {'data': 'Subtitle could not found'}
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5001)
